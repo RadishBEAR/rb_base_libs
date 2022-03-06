@@ -1,0 +1,19 @@
+{
+  "name": "rb_base_libs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadishBEAR/rb_base_libs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RadishBEAR/rb_base_libs/issues"
+  },
+  "homepage": "https://github.com/RadishBEAR/rb_base_libs#readme"
+}
