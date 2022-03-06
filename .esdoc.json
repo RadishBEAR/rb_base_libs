@@ -1,0 +1,27 @@
+{
+    "source": "./",
+    "destination": "./docs/pgg-libs-act-docs",
+    "index": "./README.md",
+    "includes": [
+        "\\.js$"
+    ],
+    "excludes": [ 
+        "\\.json$",
+        "eslintrc.js",
+        "\\.md$",
+        "node_modules"
+    ],
+    "plugins": [
+        {
+            "name": "esdoc-standard-plugin",
+            "option": {
+                "brand": {
+                    "title": "the document about pgg-act",
+                    "description": "this is document about pgg-act",
+                    "repository": "http://git.code.oa.com/vasdev/pgg-libs-act.git"
+                }
+            }
+        }
+    ]
+}
+ 
