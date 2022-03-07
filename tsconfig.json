@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "target": "esnext",
     "lib": [
       "dom",
@@ -21,5 +22,17 @@
   "include": [
     "src",
     "util"
-  ]
+  ],
+  "typedocOptions":{
+    "entryPoints": [
+      "util"
+    ],
+    "exclude": [
+      "node_moudles"
+    ],
+    "includeVersion": true,
+    "name": "测试title",
+    "hideGenerator": true,
+    "disableSources": true
+  }
 }

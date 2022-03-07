@@ -1,0 +1,22 @@
+{
+  "source": {
+    "include": ["src/","util/"],
+    "includePattern": [".js$",".ts$"]
+  },
+  "opts": {
+    "destination": "docs/",
+    "readme": "README.md",
+    "template": "",
+    "package": "package.json",
+    "recurse": true,
+    "encoding": "utf8"
+  },
+  "plugins": ["jsdoc-plugin-typescript","plugins/markdown"],
+  "typescript": {
+    "moduleRoot": "src"
+  },
+  "markdown": {
+    "tags": ["example"],
+    "idInHeadings": true
+  }
+}

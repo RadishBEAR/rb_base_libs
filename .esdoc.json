@@ -3,7 +3,8 @@
   "destination": "./docs",
   "index": "./README.md",
   "includes": [
-    "\\.js$"
+    "\\.js$",
+    "\\.ts$"
   ],
   "excludes": [ 
     "\\.json$",
@@ -14,6 +15,9 @@
   "plugins": [
     {
       "name": "esdoc-standard-plugin"
+    },
+    {
+      "name": "esdoc-typescript-plugin"
     }
   ]
 }

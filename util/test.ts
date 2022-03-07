@@ -5,6 +5,6 @@
  * @param {number} [age=1] 年龄
  * @returns {string} 测试字符串
  */
- export default function (name:string, age:number) {
+ export function test(name:string, age:number) {
     return `${name}年龄${age}`;
-  }
+}

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs": "esdoc ./.esdoc.json",
+    "docs": "node ./scripts/docs.js",
+    "doc": "jsdoc ./jsdoc.json",
+    "typedoc": "typedoc --tsconfig tsconfig.json",
     "build:libs": "rollup --config ./rollup.config.js",
     "lint:js": "npx eslint . --max-warnings 0"
   },
@@ -20,8 +22,6 @@
   "homepage": "https://github.com/RadishBEAR/rb_base_libs#readme",
   "dependencies": {
     "babel-eslint": "^10.1.0",
-    "esdoc": "^1.1.0",
-    "esdoc-standard-plugin": "^1.0.0",
     "husky": "^4.3.0",
     "lint-staged": "^10.3.0"
   },
@@ -42,9 +42,14 @@
     "eslint": "^6.8.0",
     "eslint-plugin-html": "^6.1.1",
     "jest": "^24.9.0",
+    "jsdoc": "^3.6.10",
+    "jsdoc-plugin-typescript": "^2.0.6",
+    "open": "^8.4.0",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-terser": "^5.3.1"
+    "rollup-plugin-terser": "^5.3.1",
+    "shelljs": "^0.8.5",
+    "typedoc": "^0.22.12"
   }
 }
